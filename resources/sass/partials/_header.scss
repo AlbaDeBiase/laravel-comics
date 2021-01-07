@@ -24,14 +24,20 @@ header{
     }
 }
 
-nav, {
-    padding: 20px 0;
+nav {
+    height: 100px;
     border: 1px solid grey;
+
         .header-bottom {
             display: flex;
             justify-content: center;
             .logo{
                 width: 10%;
+                img {
+                    width: 80px;
+                    display: inline-block;
+                    padding:10px 0;
+                }
             }
             .menu-header{
                 width: 80%;
@@ -39,10 +45,7 @@ nav, {
             .search-bar{
                  width: 10%;
             }
-                img {
-                    width: 80px;
-                    display: inline-block;
-                }
+
         }
     }
 
@@ -50,18 +53,43 @@ nav, {
 .menu-header{
     ul{
         display: inline-block;
+        height: 100px;
+        text-align: center;
         li{
                 margin: 0 15px;
-                padding-top: 20px;
 
             a{
                     display: inline-block;
-                    font-family: "Open Sans Condensed";
                     font-size: 17px;
                     font-weight:700;
                     font-family: $font_menu_header;
                     color: $color_menu_header;
+                    padding: 34px 0;
+                    line-height: 1.5;
+
+                    &.active, &:hover{
+                        border-bottom: 7px solid blue;
+                    }
             }
         }
     }
+}
+
+
+
+.search-bar{
+    padding: 34px 0;
+
+    input{
+
+        border: none;
+        border-bottom: 2px solid blue;
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: right;
+        width: 120px;
+        font-family: $font_menu_header;
+    }
+
 }

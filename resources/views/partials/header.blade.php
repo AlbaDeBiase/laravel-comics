@@ -20,7 +20,7 @@
                 <div class="menu-header">
                         <ul>
                         <li>
-                            <a class="uppercase" href="#">Characters</a>
+                            <a class="uppercase {{Request::route()->getName() =='home' ? 'active': ''}}" href="#">Characters</a>
                         </li>
                     </ul>
                     <ul>
@@ -71,7 +71,10 @@
                     </ul>
                 </div>
                 <div class="search-bar">
-                    <input type="search" name="" value="">
+                    <input type="search" name="serach" value="search" placeholder="Search">
+                        {{-- <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a> --}}
                 </div>
             </div>
         </div>

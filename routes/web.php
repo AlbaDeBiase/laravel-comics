@@ -21,4 +21,4 @@ Route::get('/', function () {
     ];
     // dd($data);
     return view('home',$data);
-})->name('homepage');
+})->name('home');
