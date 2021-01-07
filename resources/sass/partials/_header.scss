@@ -1,0 +1,25 @@
+header{
+    background-color: $background_header_top;
+    .header-top{
+        ul{
+            text-align: right;
+            li{
+                display: inline-block;
+                &:last-child {
+                    margin-left:50px;
+                }
+                a{
+                    display:inline-block;
+                    color:white;
+                    padding: 5px 0px;
+                    font-family: $header_font;
+                    font-size: 10px;
+                    font-weight: 600;
+                }
+                span{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

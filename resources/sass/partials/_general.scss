@@ -1,0 +1,33 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+header{
+    font-family: $header_font;
+}
+
+.container::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.container{
+    max-width: 1120px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
