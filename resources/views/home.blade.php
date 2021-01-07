@@ -2,15 +2,12 @@
 
 @section('content')
 
-<div class="container">
-    <div class="header-top">
-
-    </div>
-    <div class="header-bottom">
-
-    </div>
+<div class="fumetti">
+    @foreach ($fumetti as $fumetto)
+        <img src="{{$fumetto['thumb']}}" alt="{{$fumetto['series']}}">
+        <p>{{$fumetto['series']}}</p>
+    @endforeach
 </div>
-
 @endsection
 
 

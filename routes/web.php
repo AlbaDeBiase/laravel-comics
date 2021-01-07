@@ -19,6 +19,6 @@ Route::get('/', function () {
     $data = [
         'fumetti'=>$arrayfumetti
     ];
-    dd($data);
+    // dd($data);
     return view('home',$data);
 })->name('homepage');
