@@ -23,3 +23,45 @@ header{
         }
     }
 }
+
+nav, {
+    padding: 20px 0;
+    border: 1px solid grey;
+        .header-bottom {
+            display: flex;
+            justify-content: center;
+            .logo{
+                width: 10%;
+            }
+            .menu-header{
+                width: 80%;
+            }
+            .search-bar{
+                 width: 10%;
+            }
+                img {
+                    width: 80px;
+                    display: inline-block;
+                }
+        }
+    }
+
+
+.menu-header{
+    ul{
+        display: inline-block;
+        li{
+                margin: 0 15px;
+                padding-top: 20px;
+
+            a{
+                    display: inline-block;
+                    font-family: "Open Sans Condensed";
+                    font-size: 17px;
+                    font-weight:700;
+                    font-family: $font_menu_header;
+                    color: $color_menu_header;
+            }
+        }
+    }
+}

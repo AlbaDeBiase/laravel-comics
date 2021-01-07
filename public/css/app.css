@@ -60,3 +60,48 @@ header .header-top ul li span {
   font-size: 14px;
 }
 
+nav {
+  padding: 20px 0;
+  border: 1px solid grey;
+}
+
+nav .header-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+nav .header-bottom .logo {
+  width: 10%;
+}
+
+nav .header-bottom .menu-header {
+  width: 80%;
+}
+
+nav .header-bottom .search-bar {
+  width: 10%;
+}
+
+nav .header-bottom img {
+  width: 80px;
+  display: inline-block;
+}
+
+.menu-header ul {
+  display: inline-block;
+}
+
+.menu-header ul li {
+  margin: 0 15px;
+  padding-top: 20px;
+}
+
+.menu-header ul li a {
+  display: inline-block;
+  font-family: "Open Sans Condensed";
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Open Sans Condensed";
+  color: black;
+}
+
