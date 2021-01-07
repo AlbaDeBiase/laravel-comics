@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    $arrayfumetti = config('comics');
+
+    $data = [
+        'fumetti'=>$arrayfumetti
+    ];
+    dd($data);
+    return view('home',$data);
+})->name('homepage');
