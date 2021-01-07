@@ -1,0 +1,42 @@
+.cards-container{
+    background-color: $background_card_container;
+    padding-top: 40px;
+}
+
+.fumetti{
+    @include flex-general;
+    color:white;
+
+    .cards{
+        width: 150px;
+        height: 200px;
+        margin: 0 15px;
+
+        .image-cards{
+
+            img{
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                object-position: top;
+            }
+
+        }
+    }
+}
+
+.button-cards{
+    display: flex;
+    justify-content: center;
+
+    button{
+        background-color:$background_header_top;
+        padding: 5px 45px;
+        border: none;
+        a{
+            color:white;
+            font-weight:bold;
+            font-family: $font_menu_header;
+        }
+    }
+}
