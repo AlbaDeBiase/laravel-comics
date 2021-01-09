@@ -9,9 +9,6 @@ box-sizing: border-box;
     flex-wrap: wrap;
 }
 
-header{
-    font-family: $header_font;
-}
 
 .container::after {
     clear: both;

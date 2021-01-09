@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-header {
-  font-family: "Open Sans Normal";
-}
-
 .container::after {
   clear: both;
   content: "";
@@ -29,6 +25,10 @@ li {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+header {
+  font-family: "Open Sans Normal";
 }
 
 header {
@@ -122,6 +122,7 @@ nav .header-bottom .search-bar {
 .cards-container {
   background-color: #1c1c1c;
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .fumetti {
@@ -156,4 +157,59 @@ nav .header-bottom .search-bar {
   color: white;
   font-weight: bold;
   font-family: "Open Sans Condensed";
+}
+
+footer {
+  background-image: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 380px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+.container .footer {
+  background-image: url("../img/dc-logo-bg.png");
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 35px;
+}
+.container .footer .menu-footer {
+  display: flex;
+}
+.container .footer .menu-footer .dc-comics, .container .footer .menu-footer .dc, .container .footer .menu-footer .sites {
+  padding-right: 25px;
+  padding-bottom: 20px;
+}
+.container .footer .menu-footer .dc-comics h1, .container .footer .menu-footer .dc h1, .container .footer .menu-footer .sites h1 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Open Sans Condensed";
+  padding-bottom: 5px;
+}
+.container .footer .menu-footer .dc-comics ul li a, .container .footer .menu-footer .dc ul li a, .container .footer .menu-footer .sites ul li a {
+  color: #959595;
+  line-height: 1.5;
+  font-size: 12px;
+  font-family: "Open Sans Normal";
+}
+.container .footer .menu-footer .dc-comics ul li a:hover, .container .footer .menu-footer .dc ul li a:hover, .container .footer .menu-footer .sites ul li a:hover {
+  color: #0282f9;
+}
+
+.copy-right {
+  padding-top: 10px;
+}
+.copy-right p {
+  color: #959595;
+  font-family: "Open Sans Normal";
+  font-size: 12px;
+}
+.copy-right p a {
+  color: #0282f9;
 }
