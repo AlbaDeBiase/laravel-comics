@@ -71,10 +71,14 @@
                     </ul>
                 </div>
                 <div class="search-bar">
-                    <input type="search" name="serach" value="search" placeholder="Search">
-                        {{-- <a href="#">
+                    <div class="ricerca">
+                        <input class="capitalize" type="search" name="search" value="search" placeholder="Search">
+                    </div>
+                    <div class="icona-lente">
+                        <a href="#">
                             <i class="fas fa-search"></i>
-                        </a> --}}
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

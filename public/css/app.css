@@ -91,7 +91,7 @@ nav .header-bottom .search-bar {
   font-size: 17px;
   font-weight: 700;
   font-family: "Open Sans Condensed";
-  color: black;
+  color: #464646;
   padding: 34px 0;
   line-height: 1.5;
 }
@@ -101,6 +101,7 @@ nav .header-bottom .search-bar {
 
 .search-bar {
   padding: 34px 0;
+  display: flex;
 }
 .search-bar input {
   border: none;
@@ -111,6 +112,14 @@ nav .header-bottom .search-bar {
   text-align: right;
   width: 120px;
   font-family: "Open Sans Condensed";
+}
+.search-bar .icona-lente i {
+  color: #222;
+  font-size: 18px;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .jumbo {
