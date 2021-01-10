@@ -20,7 +20,7 @@
                         <img src="{{$fumetto['thumb']}}" alt="{{$fumetto['series']}}">
                     </div>
                     <div class="name-cards">
-                        <span>{{$fumetto['series']}}</span>
+                        <span class="uppercase">{{$fumetto['series']}}</span>
                     </div>
                 </div>
             @endforeach

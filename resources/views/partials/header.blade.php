@@ -20,12 +20,12 @@
                 <div class="menu-header">
                         <ul>
                         <li>
-                            <a class="uppercase {{Request::route()->getName() =='home' ? 'active': ''}}" href="#">Characters</a>
+                            <a class="uppercase {{Request::route()->getName() =='home' ? 'active': ''}}" href="{{route('home')}}">Characters</a>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <a class="uppercase" href="#">comics</a>
+                            <a class="uppercase {{Request::route()->getName() =='fumetto' ? 'active': ''}}" href="{{route('fumetto', 'id')}}">Comics</a>
                         </li>
                     </ul>
                     <ul>
