@@ -1,6 +1,6 @@
 <footer>
     <div class="container">
-        <div class="footer">
+        <div class="footer-top">
             <div class="menu-footer">
                 <div class="dc-comics">
                     <h1 class="uppercase">dc comics</h1>
@@ -96,6 +96,45 @@
                 </p>
                 <p><a href="#">Cookies Settings</a>
                 </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-container">
+                <div class="button-follow-us">
+                    <input class="uppercase" type="button" name="follow-us" value="Sing-up now!">
+                </div>
+                <div class="social-icons">
+                    <h2 class="uppercase">follow us</h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="{{'img/footer-facebook.png'}}" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="{{'img/footer-twitter.png'}}" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="{{'img/footer-youtube.png'}}" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="{{'img/footer-pinterest.png'}}" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="{{'img/footer-periscope.png'}}" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
