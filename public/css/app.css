@@ -298,3 +298,44 @@ footer {
   opacity: 0.8;
   transition: 1s;
 }
+
+.container-dettaglio-fumetto {
+  max-width: 900px;
+  margin: auto;
+}
+
+.wrapper {
+  background-color: #0481F6;
+  height: 60px;
+  position: relative;
+}
+
+.card-img {
+  position: absolute;
+  bottom: 20%;
+  border: 1px solid white;
+}
+.card-img img {
+  width: 150px;
+  display: block;
+}
+.card-img .comic-type {
+  position: absolute;
+}
+.card-img .comic-type p {
+  color: white;
+  font-size: 12px;
+  background-color: #0481f6bf;
+  padding: 3px;
+}
+.card-img .view-gallery {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00a9d9;
+  padding: 2px 30px;
+  font-size: 12px;
+}
+.card-img .view-gallery p {
+  color: white;
+}

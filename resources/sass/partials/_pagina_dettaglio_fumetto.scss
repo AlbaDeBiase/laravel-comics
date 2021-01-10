@@ -1,0 +1,44 @@
+.container-dettaglio-fumetto{
+    max-width: 900px;
+    margin: auto;
+}
+
+.wrapper{
+    background-color: $color_primary;
+    height: 60px;
+    position: relative;
+}
+
+.card-img{
+    position: absolute;
+    bottom: 20%;
+    border: 1px solid white;
+
+    img{
+        width: 150px;
+        display:block;
+    }
+
+    .comic-type{
+        position: absolute;
+
+        p{
+            color:white;
+            font-size: 12px;
+            background-color: #0481f6bf;
+            padding:3px;
+        }
+    }
+
+    .view-gallery{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #00a9d9;
+        padding: 2px 30px;
+        font-size: 12px;
+        p{
+            color:white;
+        }
+    }
+}

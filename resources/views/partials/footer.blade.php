@@ -110,27 +110,27 @@
                     <ul>
                         <li>
                             <a href="#">
-                                <img src="{{'img/footer-facebook.png'}}" alt="">
+                                <img src="{{'/img/footer-facebook.png'}}" alt="">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="{{'img/footer-twitter.png'}}" alt="">
+                                <img src="{{'/img/footer-twitter.png'}}" alt="">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="{{'img/footer-youtube.png'}}" alt="">
+                                <img src="{{'/img/footer-youtube.png'}}" alt="">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="{{'img/footer-pinterest.png'}}" alt="">
+                                <img src="{{'/img/footer-pinterest.png'}}" alt="">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="{{'img/footer-periscope.png'}}" alt="">
+                                <img src="{{'/img/footer-periscope.png'}}" alt="">
                             </a>
                         </li>
                     </ul>
