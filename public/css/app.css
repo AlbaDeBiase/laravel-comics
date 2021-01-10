@@ -303,6 +303,7 @@ footer {
   max-width: 900px;
   margin: auto;
   font-family: "Open Sans Condensed";
+  padding-bottom: 20px;
 }
 
 .wrapper {
@@ -381,4 +382,54 @@ footer {
   line-height: 1.5;
   color: #555;
   letter-spacing: 1px;
+}
+
+.wrap-tabs {
+  background-color: #f6f6f6;
+  border-top: 1px solid #d6d6d6;
+  height: 400px;
+}
+
+.tabs-artist {
+  display: flex;
+  padding-top: 20px;
+}
+.tabs-artist h2 {
+  color: #003f5e;
+}
+.tabs-artist a {
+  color: #00a9d9;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline;
+}
+.tabs-artist .title-tab-artist {
+  font-weight: bold;
+  color: #003f5e;
+  font-size: 14px;
+  float: left;
+  width: 160px;
+}
+.tabs-artist .talent {
+  width: 50%;
+  padding-right: 30px;
+}
+.tabs-artist .talent .art-by, .tabs-artist .talent .written-by {
+  border-top: 1px solid #d6d6d6;
+  padding: 10px 0;
+}
+.tabs-artist .talent .written-by {
+  border-bottom: 1px solid #d6d6d6;
+}
+.tabs-artist .specs {
+  width: 50%;
+}
+.tabs-artist .specs .series-name, .tabs-artist .specs .us-price, .tabs-artist .specs .on-sale-date {
+  border-top: 1px solid #d6d6d6;
+  padding: 10px 0;
+}
+
+.block {
+  display: block;
+  margin-left: 160px;
 }

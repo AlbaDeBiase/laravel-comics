@@ -2,6 +2,7 @@
     max-width: 900px;
     margin: auto;
     font-family: $font_secondary;
+    padding-bottom: 20px;
 }
 
 .wrapper{
@@ -99,4 +100,68 @@
             letter-spacing: 1px;
         }
     }
+}
+// {{-- fine section price e availabily  --}}
+// {{-- inizio tabella artist --}}
+
+.wrap-tabs{
+    background-color: #f6f6f6;
+    border-top: 1px solid #d6d6d6;
+    height: 400px;
+}
+.tabs-artist{
+    display:flex;
+    padding-top: 20px;
+
+    h2{
+    color:#003f5e;
+
+    }
+
+    a{
+        color:#00a9d9;
+        font-size: 13px;
+        font-weight: bold;
+        display: inline;
+
+
+    }
+
+    .title-tab-artist{
+        font-weight: bold;
+        color:#003f5e;
+        font-size: 14px;
+        // margin-right: 100px;
+        float: left;
+        width: 160px;
+
+
+    }
+
+    .talent{
+        width: 50%;
+        padding-right: 30px;
+
+        .art-by, .written-by{
+            border-top: 1px solid #d6d6d6;
+            padding:10px 0;
+        }
+        .written-by{
+            border-bottom: 1px solid #d6d6d6;
+        }
+    }
+
+    .specs{
+        width: 50%;
+
+        .series-name, .us-price, .on-sale-date{
+            border-top: 1px solid #d6d6d6;
+                padding:10px 0;
+        }
+    }
+}
+
+.block{
+    display: block;
+    margin-left: 160px;
 }
