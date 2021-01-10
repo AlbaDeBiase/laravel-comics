@@ -1,6 +1,7 @@
 .container-dettaglio-fumetto{
     max-width: 900px;
     margin: auto;
+    font-family: $font_secondary;
 }
 
 .wrapper{
@@ -39,6 +40,63 @@
         font-size: 12px;
         p{
             color:white;
+        }
+    }
+}
+
+.info{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
+    .comic-description{
+        margin-right: 30px;
+    }
+
+    .title-info{
+        background: #55ba59;
+        border-bottom: 1px solid #357739;
+        padding: 12px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 600;
+
+
+        .price{
+            span{
+                color:white;
+                padding: 10px;
+            }
+
+        }
+        .check-availability{
+            span{
+                color:white;
+                    padding: 12px;
+
+                &:nth-child(1){
+                    opacity:0.5;
+                    border-right: 1px solid black;
+                }
+            }
+        }
+
+        .pubblicity{
+            h2{
+                text-align: right;
+            }
+        }
+    }
+
+    .description-info{
+        padding: 20px 0;
+
+        p{
+            font-family: $font_primary;
+            font-size:15px;
+            line-height: 1.5;
+            color:#555;
+            letter-spacing: 1px;
         }
     }
 }

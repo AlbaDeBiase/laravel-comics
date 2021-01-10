@@ -302,6 +302,7 @@ footer {
 .container-dettaglio-fumetto {
   max-width: 900px;
   margin: auto;
+  font-family: "Open Sans Condensed";
 }
 
 .wrapper {
@@ -338,4 +339,46 @@ footer {
 }
 .card-img .view-gallery p {
   color: white;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.info .comic-description {
+  margin-right: 30px;
+}
+.info .title-info {
+  background: #55ba59;
+  border-bottom: 1px solid #357739;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.info .title-info .price span {
+  color: white;
+  padding: 10px;
+}
+.info .title-info .check-availability span {
+  color: white;
+  padding: 12px;
+}
+.info .title-info .check-availability span:nth-child(1) {
+  opacity: 0.5;
+  border-right: 1px solid black;
+}
+.info .title-info .pubblicity h2 {
+  text-align: right;
+}
+.info .description-info {
+  padding: 20px 0;
+}
+.info .description-info p {
+  font-family: "Open Sans Normal";
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555;
+  letter-spacing: 1px;
 }
