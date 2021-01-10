@@ -1,3 +1,28 @@
+.series{
+    position:relative;
+    height: 100px;
+    height: 50px;
+    background-color: #1c1c1c;
+
+}
+.current-series{
+    background-color: $color_primary;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    bottom: 60%;
+    left: 14%;
+
+
+    h2{
+        color: white;
+        font-size: 20px;
+        font-family: $footer_font_condensed;
+        text-align: center;
+        padding: 5px;
+    }
+}
+
 .cards-container{
     background-color: $background_card_container;
     padding-top: 40px;
@@ -41,3 +66,28 @@
         }
     }
 }
+
+.container-buy-services{
+    background-color: $color_primary;
+
+    .buy-services{
+        max-width: 1000px;
+        margin:auto;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+            img{
+                width: 40px;
+                height: 34px;
+                display: inline-block;
+                padding-right:10px;
+            }
+            span{
+                color:white;
+                padding-right:40px;
+                font-size:12px;
+            }
+        }
+    }

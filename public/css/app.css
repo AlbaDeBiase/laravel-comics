@@ -119,6 +119,29 @@ nav .header-bottom .search-bar {
   background-position-x: center;
 }
 
+.series {
+  position: relative;
+  height: 100px;
+  height: 50px;
+  background-color: #1c1c1c;
+}
+
+.current-series {
+  background-color: #0481F6;
+  width: 150px;
+  height: 40px;
+  position: absolute;
+  bottom: 60%;
+  left: 14%;
+}
+.current-series h2 {
+  color: white;
+  font-size: 20px;
+  font-family: "Open Sans Condensed";
+  text-align: center;
+  padding: 5px;
+}
+
 .cards-container {
   background-color: #1c1c1c;
   padding-top: 40px;
@@ -157,6 +180,29 @@ nav .header-bottom .search-bar {
   color: white;
   font-weight: bold;
   font-family: "Open Sans Condensed";
+}
+
+.container-buy-services {
+  background-color: #0481F6;
+}
+.container-buy-services .buy-services {
+  max-width: 1000px;
+  margin: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-buy-services .buy-services img {
+  width: 40px;
+  height: 34px;
+  display: inline-block;
+  padding-right: 10px;
+}
+.container-buy-services .buy-services span {
+  color: white;
+  padding-right: 40px;
+  font-size: 12px;
 }
 
 footer {
