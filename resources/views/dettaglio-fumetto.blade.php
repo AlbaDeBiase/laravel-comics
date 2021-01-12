@@ -86,8 +86,40 @@
                 </div>
             </div>
         </div>
+        <div class="image-box-cta-container">
+            <div class="image-box-cta">
+                <a href="#">
+                    <span class="text-cta uppercase">digital comics</span>
+                    <span class="image-cta"></span>
+                </a>
+            </div>
+            <div class="image-box-cta">
+                <a href="#">
+                    <span class="text-cta uppercase">shop dc</span>
+                    <span class="image-cta"></span>
+                </a>
+            </div>
+            <div class="image-box-cta">
+                <a href="#">
+                    <span class="text-cta uppercase">comic shop locator</span>
+                    <span class="image-cta"></span>
+                </a>
+            </div>
+            <div class="image-box-cta">
+                <a href="#">
+                    <span class="text-cta uppercase">subscriptions</span>
+                    <span class="image-cta"></span>
+                </a>
+            </div>
+
+            </div>
+        </div>
     </div>
-</div>
+
+
+
+
+
 
 @endsection
 

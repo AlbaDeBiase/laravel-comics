@@ -396,12 +396,14 @@ footer {
 .wrap-tabs {
   background-color: #f6f6f6;
   border-top: 1px solid #d6d6d6;
-  height: 400px;
+  height: 500px;
+  display: flex;
 }
 
 .tabs-artist {
   display: flex;
   padding-top: 20px;
+  padding-bottom: 159px;
 }
 .tabs-artist h2 {
   color: #003f5e;
@@ -410,6 +412,7 @@ footer {
   color: #00a9d9;
   font-size: 13px;
   font-weight: bold;
+  display: flex;
   display: inline;
 }
 .tabs-artist .title-tab-artist {
@@ -441,4 +444,47 @@ footer {
 .block {
   display: block;
   margin-left: 160px;
+}
+
+.image-box-cta-container {
+  display: flex;
+}
+.image-box-cta-container .image-box-cta {
+  border: 1px solid #d6d6d6;
+  width: 200px;
+}
+.image-box-cta-container .image-box-cta .text-cta {
+  color: #d6d6d6;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.image-box-cta-container .image-box-cta .image-cta {
+  background-image: url("/img/cta-icons.png");
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+}
+.image-box-cta-container .image-box-cta:first-child image-cta {
+  background-position: 0 0;
+}
+.image-box-cta-container .image-box-cta:first-child:hover .image-cta {
+  background-position: 0 37px;
+}
+.image-box-cta-container .image-box-cta:nth-child(2) .image-cta {
+  background-position: 37px 0;
+}
+.image-box-cta-container .image-box-cta:nth-child(2):hover .image-cta {
+  background-position: 37px 37px;
+}
+.image-box-cta-container .image-box-cta:nth-child(3) .image-cta {
+  background-position: 74px 0;
+}
+.image-box-cta-container .image-box-cta:nth-child(3):hover .image-cta {
+  background-position: 74px 37px;
+}
+.image-box-cta-container .image-box-cta:nth-child(4) .image-cta {
+  background-position: 111px 0;
+}
+.image-box-cta-container .image-box-cta:nth-child(4):hover .image-cta {
+  background-position: 111px 37px;
 }

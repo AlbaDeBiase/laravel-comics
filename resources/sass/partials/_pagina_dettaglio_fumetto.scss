@@ -107,11 +107,13 @@
 .wrap-tabs{
     background-color: #f6f6f6;
     border-top: 1px solid #d6d6d6;
-    height: 400px;
+    height: 500px;
+    display: flex;
 }
 .tabs-artist{
     display:flex;
     padding-top: 20px;
+    padding-bottom: 159px;
 
     h2{
     color:#003f5e;
@@ -122,6 +124,7 @@
         color:#00a9d9;
         font-size: 13px;
         font-weight: bold;
+        display: flex;
         display: inline;
 
 
@@ -156,7 +159,7 @@
 
         .series-name, .us-price, .on-sale-date{
             border-top: 1px solid #d6d6d6;
-                padding:10px 0;
+            padding:10px 0;
         }
     }
 }
@@ -164,4 +167,72 @@
 .block{
     display: block;
     margin-left: 160px;
+}
+
+// inizio riquadro icone
+
+.image-box-cta-container{
+    display: flex;
+
+
+
+    .image-box-cta{
+        border:1px solid #d6d6d6;
+        // flex-grow: 1;
+        width: 200px;
+
+    .text-cta{
+        color:#d6d6d6;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    .image-cta{
+
+        background-image: url('/img/cta-icons.png');
+        display:inline-block;
+        width: 37px;
+        height: 37px;
+    }
+    &:first-child {
+        image-cta{
+            background-position: 0 0;
+        }
+
+        &:hover .image-cta{
+            background-position: 0 37px;
+        }
+    }
+
+    &:nth-child(2) {
+        .image-cta{
+            background-position:37px 0;
+        }
+
+        &:hover .image-cta{
+            background-position: 37px 37px;
+        }
+    }
+    &:nth-child(3) {
+        .image-cta{
+            background-position:74px 0;
+        }
+
+        &:hover .image-cta{
+            background-position: 74px 37px;
+        }
+    }
+
+    &:nth-child(4) {
+        .image-cta{
+            background-position:111px 0;
+        }
+
+        &:hover .image-cta{
+            background-position: 111px 37px;
+        }
+    }
+
+}
+
 }
